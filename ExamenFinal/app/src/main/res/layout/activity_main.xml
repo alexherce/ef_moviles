@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.herce.examenfinal.MainActivity">
+
+    <Button
+        android:id="@+id/directorioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver directorio" />
+
+    <Button
+        android:id="@+id/addEmpresaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Empresa" />
+
+    <Button
+        android:id="@+id/addContactoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Contacto" />
+
+    <Button
+        android:id="@+id/verMapaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Mapa" />
+</LinearLayout>

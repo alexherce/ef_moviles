@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ExamenFinal</string>
+    <string name="usernameText">Username</string>
+    <string name="passwordText">Password</string>
+    <string name="signupText">Signup</string>
+    <string name="nameText">Name</string>
+    <string name="apellidoPatText">First Last Name</string>
+    <string name="apellidoMatText">Second Last Name</string>
+    <string name="loginButtonText">Login</string>
+    <string name="signupButtonText">Signup</string>
+    <string name="addEmpresaText">Add Company</string>
+    <string name="sloganText">Slogan</string>
+    <string name="oficinaText">Office</string>
+    <string name="telefonoText">Phone</string>
+    <string name="faxText">Fax</string>
+    <string name="calleText">Street</string>
+    <string name="ciudadText">City</string>
+    <string name="estadoText">State</string>
+    <string name="codigopostalText">Postal Code</string>
+    <string name="crearText">Create</string>
+    <string name="addContactoText">Add Contact</string>
+    <string name="imagenText">Image URL</string>
+    <string name="latitudText">Latitude</string>
+    <string name="longitudText">Longitude</string>
+    <string name="idEmpresaText">ID Company</string>
+    <string name="editText">Edit</string>
+    <string name="deleteText">Delete</string>
+</resources>

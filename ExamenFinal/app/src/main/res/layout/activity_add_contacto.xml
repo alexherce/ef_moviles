@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.herce.examenfinal.AddContactoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/signupTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.02"
+                android:fontFamily="sans-serif"
+                android:text="@string/addContactoText"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Large"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.02"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <EditText
+                android:id="@+id/nombreContactoField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.02"
+                android:ems="10"
+                android:hint="@string/nameText"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/telefonoContactoField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.02"
+                android:ems="10"
+                android:hint="@string/telefonoText"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/imagenField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.02"
+                android:ems="10"
+                android:hint="@string/imagenText"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/latitudField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.02"
+                android:ems="10"
+                android:hint="@string/latitudText"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/longitudField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.02"
+                android:ems="10"
+                android:hint="@string/longitudText"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/idcompanyField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.02"
+                android:ems="10"
+                android:hint="@string/idEmpresaText"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/crearContactoButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.02"
+                android:text="@string/crearText" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
